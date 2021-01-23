@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
+import  postReducer from '../reducers/postReducer';
 
 export default combineReducers({
 
-    replaceMeBack: () => 'I will be back to change you with valid reducers'
+    posts: postReducer,
 });
