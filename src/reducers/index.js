@@ -6,4 +6,5 @@ export default combineReducers({
 
     posts: postReducer,
     users: usersReducer,
+
 });
